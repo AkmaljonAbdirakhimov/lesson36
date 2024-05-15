@@ -78,6 +78,7 @@ class _LoginPageState extends State<LoginPage> {
                 label: const Text(
                   "Email Address",
                 ),
+                errorText: errorMessage.isEmpty ? null : errorMessage,
               ),
             ),
             const SizedBox(height: 10),
